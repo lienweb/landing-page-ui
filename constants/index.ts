@@ -45,3 +45,28 @@ export const testimonials = [
     ratings: 5,
   },
 ];
+
+export const teamMemebers = [
+  {
+    avatar: 'https://bit.ly/dan-abramov',
+    name: 'Sarah K.',
+    position: 'Lead Designer',
+    comment:
+      'With a passion for color and a love for clean lines, Sarah brings all our wildest design dreams to life.',
+    ratings: 5,
+  },
+  {
+    avatar: 'https://bit.ly/dan-abramov',
+    name: 'Michael L.',
+    position: 'Product Designer',
+    comment:
+      'Michael got a sharp eye for detail and the ability to turn any boring interface into a work of art.',
+  },
+  {
+    avatar: 'https://bit.ly/dan-abramov',
+    name: 'Lauren M.',
+    position: 'UX Designer',
+    comment:
+      "Lauren is the mastermind behind all the seamless user experiences you love. She's a wizard at making things intuitive.",
+  },
+];
