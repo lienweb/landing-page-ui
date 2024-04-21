@@ -20,3 +20,9 @@ export const features = [
     imgBg: 'green.50',
   },
 ];
+
+export const projectsImage = [
+  'https://bit.ly/dan-abramov',
+  'https://bit.ly/dan-abramov',
+  'https://bit.ly/dan-abramov',
+];

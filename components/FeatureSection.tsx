@@ -9,7 +9,7 @@ import {
 } from '@chakra-ui/react';
 import Image from 'next/image';
 import CustomIconButton from './CustomIconButton';
-import { features } from '@/constants/features';
+import { features } from '@/constants';
 
 const FeatureSection = () => {
   return (
