@@ -4,6 +4,7 @@ const theme = extendTheme({
   fonts: {
     heading: 'var(--font-poppins)',
     body: 'var(--font-poppins)',
+    mulish: 'var(--font-mulish)',
   },
   colors: {
     green: {

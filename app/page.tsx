@@ -1,18 +1,27 @@
 'use client';
-import { Link } from '@chakra-ui/next-js';
+
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import HeroSection from '@/components/HeroSection';
+import FeatureSection from '@/components/FeatureSection';
+import ProjectSection from '@/components/ProjectSection';
+import TestimonialSection from '@/components/TestimonialSection';
+import TeamSection from '@/components/TeamSection';
+import CTASection from '@/components/CTASection';
 
 export default function Home() {
   return (
-    <main>
-      <Link
-        href="/login"
-        color="blue.400"
-        _hover={{ color: 'blue.500' }}
-        fontSize={`90px`}
-        fontWeight={`700`}
-      >
-        Typography
-      </Link>
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <HeroSection />
+        <FeatureSection />
+        <ProjectSection />
+        <TestimonialSection />
+        <TeamSection />
+        <CTASection />
+      </main>
+      <Footer />
+    </>
   );
 }
