@@ -1,10 +1,17 @@
-import { Inter } from 'next/font/google';
+import { Poppins, Mulish } from 'next/font/google';
 
-const inter = Inter({
+const poppins = Poppins({
   subsets: ['latin'],
-  variable: '--font-inter',
+  weight: ['400','500','600', '700'],
+  variable: '--font-poppins',
+});
+
+const mulish = Mulish({
+  subsets: ['latin'],
+  variable: '--font-mulish',
 });
 
 export const fonts = {
-  inter,
+  poppins,
+  mulish,
 };
