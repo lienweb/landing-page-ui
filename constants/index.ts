@@ -48,7 +48,6 @@ export const testimonials = [
 
 export const teamMemebers = [
   {
-    avatar: 'https://bit.ly/dan-abramov',
     name: 'Sarah K.',
     position: 'Lead Designer',
     comment:
@@ -56,14 +55,12 @@ export const teamMemebers = [
     ratings: 5,
   },
   {
-    avatar: 'https://bit.ly/dan-abramov',
     name: 'Michael L.',
     position: 'Product Designer',
     comment:
       'Michael got a sharp eye for detail and the ability to turn any boring interface into a work of art.',
   },
   {
-    avatar: 'https://bit.ly/dan-abramov',
     name: 'Lauren M.',
     position: 'UX Designer',
     comment:

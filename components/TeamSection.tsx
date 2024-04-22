@@ -18,10 +18,11 @@ function TeamSection() {
 
   useEffect(() => {
     const fetchUserImg = async () => {
-      const data = await handleRandomUser();
-      console.log(JSON.stringify(data));
-      // setUserImgPath(data);
+      const { results } = await handleRandomUser();
+      const user = results[0];
+      setUserImgPath(user.picture.large);
     };
+    fetchUserImg();
   }, []);
 
   return (
