@@ -18,6 +18,7 @@ const CustomIconButton = ({ title, display, imgPath, imgBg }) => {
           width={16}
           height={16}
           className="hidden md:block"
+          alt="custom button"
         />
       </Box>
       <Text fontSize="md" ml={2}>
