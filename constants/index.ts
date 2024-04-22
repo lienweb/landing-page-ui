@@ -70,3 +70,25 @@ export const teamMemebers = [
       "Lauren is the mastermind behind all the seamless user experiences you love. She's a wizard at making things intuitive.",
   },
 ];
+
+export const logoBarLine1 = [
+  '/logo-bar/snowflake.svg',
+  '/logo-bar/slack.svg',
+  '/logo-bar/spotify.svg',
+  '/logo-bar/discord.svg',
+  '/logo-bar/kakao.svg',
+  '/logo-bar/dropbox.svg',
+];
+export const logoBarLine2 = [
+  '/logo-bar/mailchimp.svg',
+  '/logo-bar/stripe.svg',
+  '/logo-bar/zoom.svg',
+  '/logo-bar/apple.svg',
+  '/logo-bar/diamond.svg',
+];
+export const logoBarLine3 = [
+  '/logo-bar/airbnb.svg',
+  '/logo-bar/amazon.svg',
+  '/logo-bar/react.svg',
+  '/logo-bar/everbrite.svg',
+];
