@@ -33,11 +33,12 @@ const FeatureSection = () => {
           your own pages.
         </Text>
         <Stack direction={{ base: 'column', lg: 'row' }} pt={10} pb={`3.75rem`}>
-          {features.map((feat) => (
+          {features.map((feat, i) => (
             <CustomIconButton
               title={feat.title}
               imgPath={feat.imgPath}
               imgBg={feat.imgBg}
+              key={i}
             />
           ))}
         </Stack>

@@ -30,33 +30,36 @@ const LogoBar = () => {
         We integrate with more than 50 apps you use daily
       </Text>
       <Flex w="full" pt={10} alignItems="center" justifyContent="space-between">
-        {logoBarLine1.map((imgSrcPath) => (
+        {logoBarLine1.map((imgSrcPath, i) => (
           <Box
             borderRadius="full"
             w={{ base: '2.5rem', sm: 'full' }}
             h={{ base: '2.5rem', sm: 'full' }}
+            key={i}
           >
             <Image src={imgSrcPath} width={64} height={64} alt="social media" />
           </Box>
         ))}
       </Flex>
       <Grid templateColumns="repeat(5, 1fr)" gap={{ base: 4, lg: 14 }} pt={10}>
-        {logoBarLine2.map((imgSrcPath) => (
+        {logoBarLine2.map((imgSrcPath, i) => (
           <Box
             borderRadius="full"
             w={{ base: '2.5rem', sm: 'full' }}
             h={{ base: '2.5rem', sm: 'full' }}
+            key={i}
           >
             <Image src={imgSrcPath} width={64} height={64} alt="social media" />
           </Box>
         ))}
       </Grid>
       <Grid templateColumns="repeat(4, 1fr)" gap={{ base: 4, lg: 14 }} pt={10}>
-        {logoBarLine3.map((imgSrcPath) => (
+        {logoBarLine3.map((imgSrcPath, i) => (
           <Box
             borderRadius="full"
             w={{ base: '2.5rem', sm: 'full' }}
             h={{ base: '2.5rem', sm: 'full' }}
+            key={i}
           >
             <Image src={imgSrcPath} width={64} height={64} alt="social media" />
           </Box>

@@ -34,8 +34,8 @@ const ProjectSection = () => {
         life.
       </Text>
       <Stack direction={{ base: 'column', lg: 'row' }} pt={10}>
-        {projectsImage.map((image) => (
-          <Card size="sm" borderRadius="2xl" m={4}>
+        {projectsImage.map((image, i) => (
+          <Card size="sm" borderRadius="2xl" m={4} key={i}>
             <CardBody p={0}>
               <Image src={image} borderTopRadius="2xl" alt="Dan Abramov" />
             </CardBody>

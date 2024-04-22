@@ -40,7 +40,7 @@ const TestimonialSection = () => {
         See how our landing page ui kit is making an impact.
       </Text>
       <Stack direction={{ base: 'column', lg: 'row' }} pt={10}>
-        {testimonials.map((data) => (
+        {testimonials.map((data, i) => (
           <Card
             size="sm"
             borderRadius="2xl"
@@ -49,6 +49,7 @@ const TestimonialSection = () => {
             py={10}
             flexDirection={{ base: 'column', sm: 'row' }}
             alignItems="center"
+            key={i}
           >
             <CardHeader
               display="flex"

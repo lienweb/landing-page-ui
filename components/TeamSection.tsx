@@ -10,8 +10,20 @@ import {
   Button,
 } from '@chakra-ui/react';
 import { teamMemebers } from '@/constants';
+import { handleRandomUser } from '@/api/randomUser';
+import { useEffect, useState } from 'react';
 
-const TeamSection = () => {
+function TeamSection() {
+  const [userImgPath, setUserImgPath] = useState('https://bit.ly/dan-abramov');
+
+  useEffect(() => {
+    const fetchUserImg = async () => {
+      const data = await handleRandomUser();
+      console.log(JSON.stringify(data));
+      // setUserImgPath(data);
+    };
+  }, []);
+
   return (
     <Flex
       px={{ base: 7, lg: 14 }}
@@ -40,7 +52,7 @@ const TeamSection = () => {
         drive us.
       </Text>
       <Stack direction={{ base: 'column', lg: 'row' }} pt={10}>
-        {teamMemebers.map((data) => (
+        {teamMemebers.map((data, i) => (
           <Card
             size="sm"
             borderRadius="2xl"
@@ -48,6 +60,7 @@ const TeamSection = () => {
             px={8}
             py={10}
             alignItems="center"
+            key={i}
           >
             <CardHeader
               display="flex"
@@ -56,7 +69,7 @@ const TeamSection = () => {
               px={8}
               py={4}
             >
-              <Avatar size="2xl" name="Dan Abrahmov" src={data.avatar} mb={4} />
+              <Avatar size="2xl" name="Dan Abrahmov" src={userImgPath} mb={4} />
               <Heading size="md" mb={`6px`}>
                 {data.name}
               </Heading>
@@ -94,6 +107,6 @@ const TeamSection = () => {
       </Stack>
     </Flex>
   );
-};
+}
 
 export default TeamSection;
