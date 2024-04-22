@@ -1,12 +1,4 @@
-import {
-  Box,
-  Flex,
-  Heading,
-  Spacer,
-  Stack,
-  Text,
-  Button,
-} from '@chakra-ui/react';
+import { Box, Flex, Heading, Spacer, Stack, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 import CustomIconButton from './CustomIconButton';
 import { features } from '@/constants';
