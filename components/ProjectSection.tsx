@@ -30,8 +30,8 @@ const ProjectSection = () => {
         fontFamily="mulish"
         fontSize={`1rem`}
       >
-        Explore our portfolio and see the latest projects that we've brought to
-        life.
+        Explore our portfolio and see the latest projects that we &apos;ve
+        brought to life.
       </Text>
       <Stack direction={{ base: 'column', lg: 'row' }} pt={10}>
         {projectsImage.map((image, i) => (

@@ -1,7 +1,12 @@
 import { Button, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 
-const RocketButton = ({ title, display }) => {
+interface RocketButtonProps {
+  title: string;
+  display: any;
+}
+
+const RocketButton = ({ title, display }: RocketButtonProps) => {
   return (
     <Button
       borderRadius="2xl"

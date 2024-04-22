@@ -1,14 +1,18 @@
 import { Button, Text, Box } from '@chakra-ui/react';
 import Image from 'next/image';
+interface CustomIconButtonProps {
+  title: string;
+  imgPath: string;
+  imgBg: string;
+}
 
-const CustomIconButton = ({ title, display, imgPath, imgBg }) => {
+const CustomIconButton = ({ title, imgPath, imgBg }: CustomIconButtonProps) => {
   return (
     <Button
       borderRadius="2xl"
       variant="outline"
       color="gray.900"
       fontWeight="400"
-      display={display}
       bg="white"
       _hover={{ color: 'green.100', bg: 'green.50' }}
     >
