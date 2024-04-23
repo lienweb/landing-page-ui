@@ -1,6 +1,9 @@
+## [Live Demo](https://landing-page-ui-kohl.vercel.app/)
+
 This Next.js project is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and Chakra UI.
 
 This project is about a landing page ui, I broke down into 7 sections as treated each section as one component.
+
 
 <!-- ## Folder Structure
 ```
