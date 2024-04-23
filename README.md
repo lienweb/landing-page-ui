@@ -18,11 +18,8 @@ This project is about a landing page ui, I broke down into 7 sections as treated
 
 This UI has mobile and Desktop version
 
-- mobile
 https://github.com/lienweb/landing-page-ui/assets/37633033/40d1aea4-06ad-4b25-880c-ed6daef5730d
 
-
-- Desktop
 https://github.com/lienweb/landing-page-ui/assets/37633033/912a6761-f731-4b55-9f8d-e6c751d2bd69
 
 
